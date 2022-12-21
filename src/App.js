@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import Cards from "./Components/Cards/Cards";
+import OverView from "./Components/OverView/OverView";
+import SurveyData from "./Components/Table2/SurveyData";
+import AddEmployModal from "./Components/AddEmployModal/AddEmployModal";
+import NotesModal from "./Components/NotesModal/NotesModal";
+import EvaluationModal from "./Components/EvaluationModal/EvaluationModal";
+import OverviewTable from "./Components/OverViewTable/OverviewTable";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Cards /> */}
+      <OverView />
+      {/* <SurveyData /> */}
+      {/* <AddEmployModal /> */}
+      {/* <NotesModal /> */}
+      <EvaluationModal />
+      {/* <OverviewTable/> */}
     </div>
   );
 }
